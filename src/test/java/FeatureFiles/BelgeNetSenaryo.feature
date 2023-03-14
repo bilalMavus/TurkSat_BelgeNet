@@ -54,6 +54,8 @@ Feature: BelgeNet Module Functionality
       | kaldirilacaklarTextBox | YÖNETİM KURULU EVRAKLARI |
     And Click On The Element
       | yKuruluEvrClick |
+    And Manual 2 Seconds Standby
+    And Click On The Element
       | editorButton    |
     And iframe Input
       | iframe1 |
